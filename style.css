@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.pro{
+    border-radius:50% ;
+}
+#welcome{
+    background:linear-gradient(#2561f7 0%,#f20000 100%) ;
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 9;
+}
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name{
+    font-family: 'Licorice', cursive;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.link{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
